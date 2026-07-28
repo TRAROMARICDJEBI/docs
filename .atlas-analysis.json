@@ -1,30 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "1xBet FIFA Prediction Bot",
+  "projectDescription": "A professional AI-powered prediction bot for virtual FIFA matches, delivering real-time match insights and winning tips directly to users.",
   "theme": "almond",
-  "name": "1xBet FIFA Prediction Bot",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "/support/contact"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Accéder au Bot",
-      "href": "https://t.me/1xbet_bot"
-    }
-  },
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -75,10 +56,22 @@
       }
     ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/1xbet",
-      "telegram": "https://t.me/1xbet_bot"
-    }
-  }
+  "keyFeatures": [
+    "Real-time virtual FIFA match predictions",
+    "Pro-grade AI analysis engine",
+    "Telegram bot interface for instant tips",
+    "Multiple subscription tiers",
+    "Coverage of all virtual FIFA match types",
+    "Win rate statistics and performance tracking",
+    "Bankroll management guidance",
+    "24/7 automated prediction delivery"
+  ],
+  "publicApiSurface": [
+    "/start — Launch the bot and see the welcome menu",
+    "/predict — Request a prediction for the next virtual match",
+    "/stats — View bot performance and win rate history",
+    "/subscribe — View and activate subscription plans",
+    "/help — List all available commands",
+    "/settings — Manage notification and language preferences"
+  ]
 }

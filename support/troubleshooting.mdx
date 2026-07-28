@@ -1,0 +1,182 @@
+---
+title: "Résoudre les Problèmes Courants du Bot de Prédiction FIFA 1xBet"
+sidebarTitle: "Dépannage"
+description: "Guide de dépannage pour les problèmes courants du bot FIFA virtuel 1xBet : bot silencieux, abonnement non activé, prédictions manquantes, paiement refusé."
+---
+
+Même les outils les plus fiables peuvent parfois rencontrer des incidents. Ce guide de dépannage vous permet de diagnostiquer et de résoudre rapidement les problèmes les plus courants rencontrés lors de l'utilisation du bot de prédiction FIFA virtuel 1xBet, sans avoir à attendre l'intervention du support.
+
+---
+
+## Problèmes Fréquents et Solutions
+
+### 1. Le bot ne répond plus
+
+**Cause probable :** Un timeout de connexion Telegram ou un redémarrage temporaire du bot peuvent interrompre la session en cours. Ce type d'incident est généralement bref et se résout de lui-même.
+
+**Solution :**
+
+<Steps>
+  <Step title="Envoyez la commande /start">
+    Tapez `/start` dans la conversation avec le bot sur Telegram. Cette commande réinitialise votre session et rétablit la connexion dans la plupart des cas.
+  </Step>
+  <Step title="Patientez 30 secondes">
+    Après avoir envoyé `/start`, attendez environ 30 secondes avant d'envoyer une nouvelle commande. Le bot peut avoir besoin d'un court instant pour redémarrer.
+  </Step>
+  <Step title="Réessayez votre commande">
+    Envoyez à nouveau la commande souhaitée (par exemple `/predict` ou `/balance`). Si le bot répond normalement, le problème est résolu.
+  </Step>
+  <Step title="Contactez le support si le problème persiste">
+    Si le bot reste muet après plusieurs minutes, contactez notre équipe support en précisant votre identifiant Telegram et l'heure exacte à laquelle le problème a commencé. Voir [Contacter le support](/support/contact).
+  </Step>
+</Steps>
+
+---
+
+### 2. Je ne reçois plus de prédictions
+
+Si vous avez un abonnement actif mais que vous n'avez reçu aucune prédiction depuis un certain temps, vérifiez les points suivants dans l'ordre :
+
+**Étape 1 — Vérifiez votre statut d'abonnement**
+
+Tapez `/balance` dans le chat du bot pour confirmer que votre abonnement est bien actif et n'a pas expiré.
+
+```
+/balance
+```
+
+Si votre abonnement est expiré, rendez-vous sur la page [Activer mon abonnement](/subscription/activate) pour le renouveler.
+
+**Étape 2 — Vérifiez les paramètres de notifications Telegram**
+
+Il est possible que les notifications pour le bot aient été désactivées au niveau de Telegram. Pour les réactiver :
+
+<Steps>
+  <Step title="Ouvrez le chat du bot sur Telegram">
+    Accédez à votre conversation avec le bot de prédiction FIFA 1xBet.
+  </Step>
+  <Step title="Appuyez sur le nom du bot en haut de l'écran">
+    Cela ouvre le profil du bot et les options de la conversation.
+  </Step>
+  <Step title="Vérifiez les notifications">
+    Assurez-vous que l'option **Notifications** est activée (icône de cloche non barrée). Si elle est désactivée, appuyez dessus pour la réactiver.
+  </Step>
+  <Step title="Vérifiez les paramètres généraux de Telegram">
+    Dans **Paramètres > Notifications et sons** de l'application Telegram, vérifiez que les notifications ne sont pas globalement désactivées sur votre appareil.
+  </Step>
+</Steps>
+
+**Étape 3 — Vérifiez que vous n'avez pas mis le bot en sourdine**
+
+Si vous avez utilisé la fonction "Mettre en sourdine" de Telegram sur la conversation du bot, vous ne recevrez plus d'alertes. Pour désactiver la sourdine :
+
+- Sur **Android / iOS** : appuyez longuement sur la conversation du bot dans la liste des chats, puis sélectionnez **Réactiver les notifications**.
+- Sur **Desktop** : faites un clic droit sur la conversation et choisissez **Activer les notifications**.
+
+---
+
+### 3. Mon abonnement n'est pas activé après paiement
+
+Après avoir effectué un paiement, un délai de traitement est normal avant l'activation de votre abonnement.
+
+**Délais normaux selon la méthode de paiement :**
+
+| Méthode de paiement | Délai habituel de confirmation |
+|---------------------|-------------------------------|
+| Cryptomonnaie (Bitcoin, USDT…) | Jusqu'à **10 minutes** |
+| Mobile Money (Orange Money, Wave…) | Jusqu'à **30 minutes** |
+| Carte bancaire | Jusqu'à **15 minutes** |
+
+**Si votre abonnement n'est toujours pas activé après 1 heure :**
+
+<Steps>
+  <Step title="Vérifiez avec /balance">
+    Tapez `/balance` dans le bot pour voir si votre abonnement a quand même été activé sans notification.
+
+    ```
+    /balance
+    ```
+  </Step>
+  <Step title="Préparez votre preuve de paiement">
+    Faites une capture d'écran de la confirmation de transaction depuis votre application bancaire ou votre portefeuille crypto. Notez également la date, l'heure et le montant exact du paiement.
+  </Step>
+  <Step title="Contactez le support">
+    Envoyez votre preuve de paiement à notre équipe support via la page [Contact](/support/contact). Incluez votre identifiant Telegram (@username) et la méthode de paiement utilisée.
+  </Step>
+</Steps>
+
+<Warning>
+  Ne procédez pas à un second paiement avant d'avoir contacté le support. Cela pourrait entraîner une double facturation difficile à annuler.
+</Warning>
+
+---
+
+### 4. Paiement refusé ou erreur lors du paiement
+
+Si votre tentative de paiement échoue ou génère un message d'erreur, voici les causes les plus fréquentes et leurs solutions :
+
+**Essayez une autre méthode de paiement**
+
+Certaines méthodes peuvent être temporairement indisponibles. Accédez au menu de paiement du bot et sélectionnez une méthode alternative. Consultez les [Plans d'abonnement](/subscription/plans) pour voir toutes les méthodes acceptées.
+
+**Vérifiez votre plafond de paiement**
+
+Il est possible que vous ayez atteint la limite de transaction quotidienne ou mensuelle de votre portefeuille ou de votre compte bancaire. Vérifiez les limites en vigueur auprès de votre fournisseur de paiement.
+
+**Vérifiez la validité de vos informations de paiement**
+
+Assurez-vous que les informations saisies (numéro de carte, adresse de portefeuille crypto, etc.) sont correctes et à jour.
+
+**Si l'erreur persiste :**
+
+<Steps>
+  <Step title="Faites une capture d'écran du message d'erreur">
+    Conservez une capture d'écran complète du message d'erreur affiché, avec la date et l'heure visibles.
+  </Step>
+  <Step title="Contactez le support">
+    Transmettez la capture d'écran à notre équipe support via la page [Contact](/support/contact) en décrivant les étapes qui ont précédé l'erreur.
+  </Step>
+</Steps>
+
+---
+
+### 5. La prédiction semble incorrecte ou incohérente
+
+Il peut arriver qu'une prédiction vous paraisse surprenante ou que le résultat ne corresponde pas à l'analyse fournie.
+
+**Rappel important : les prédictions sont probabilistes**
+
+Le bot analyse statistiquement les données disponibles et identifie les scénarios les plus probables. Cela ne signifie pas que le résultat est garanti — un événement moins probable peut tout à fait survenir. C'est la nature même des paris sportifs.
+
+**Consultez les statistiques globales de performance**
+
+Pour avoir une vision objective des performances du bot sur la durée, utilisez la commande `/stats` :
+
+```
+/stats
+```
+
+Cette commande affiche le taux de réussite global et par type de pari sur une période glissante, ce qui vous permet de contextualiser chaque prédiction individuelle.
+
+**Si vous suspectez une erreur de données**
+
+Si vous pensez que la prédiction contenait des informations manifestement erronées (par exemple, des équipes incorrectes ou des cotes qui ne correspondent pas à celles affichées sur 1xBet), contactez notre équipe support :
+
+<Steps>
+  <Step title="Notez l'identifiant du match">
+    Retrouvez l'identifiant du match concerné dans le message de prédiction ou via `/history`.
+  </Step>
+  <Step title="Contactez le support">
+    Transmettez l'identifiant du match et une description de l'incohérence constatée via la page [Contact](/support/contact). Notre équipe technique examinera le cas.
+  </Step>
+</Steps>
+
+---
+
+<Note>
+  Si aucune des solutions ci-dessus ne résout votre problème, notre équipe support est disponible pour vous aider. Rendez-vous sur la page [Contacter le support](/support/contact) pour nous joindre via Telegram, email ou chat direct.
+</Note>
+
+<Tip>
+  Avant de contacter le support, prenez toujours une **capture d'écran de l'erreur ou du problème rencontré**. Cela nous permet de diagnostiquer votre situation beaucoup plus rapidement et d'apporter une solution adaptée sans aller-retour inutile.
+</Tip>

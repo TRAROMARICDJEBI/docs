@@ -1,0 +1,127 @@
+---
+title: "Lire et Analyser les Résultats des Prédictions FIFA Virtuel"
+sidebarTitle: "Résultats"
+description: "Comprendre comment interpréter les résultats du bot, consulter votre historique de prédictions et suivre les performances via /stats et /history."
+---
+
+Suivre vos résultats est une étape essentielle pour évaluer l'efficacité de votre stratégie et optimiser vos paris FIFA Virtuels sur 1xBet. Le bot vous fournit des outils complets pour consulter vos statistiques personnelles, analyser vos performances sur le long terme et comprendre l'évolution de votre taux de réussite. Cette page vous guide à travers toutes les fonctionnalités de suivi disponibles.
+
+---
+
+## Consulter vos Statistiques
+
+La commande `/stats` vous donne accès à un tableau de bord complet regroupant toutes vos performances depuis le début de votre utilisation du bot. Ces données sont mises à jour après chaque match virtuel dont le résultat est connu.
+
+Pour consulter vos statistiques, tapez simplement :
+
+```text
+/stats
+```
+
+Voici un exemple de réponse :
+
+```text
+📈 VOS STATISTIQUES
+━━━━━━━━━━━━━━━━━
+✅ Prédictions gagnantes : 73%
+📊 Matchs analysés : 248
+🏆 Série en cours : 5 victoires
+💰 ROI estimé : +18.4%
+━━━━━━━━━━━━━━━━━
+```
+
+Chaque indicateur vous renseigne sur un aspect précis de vos performances :
+
+- **Prédictions gagnantes** — Pourcentage de prédictions qui se sont avérées correctes sur l'ensemble de votre historique
+- **Matchs analysés** — Nombre total de prédictions reçues et dont le résultat a été enregistré
+- **Série en cours** — Nombre de victoires ou de défaites consécutives sur vos dernières prédictions
+- **ROI estimé** — Retour sur investissement estimé en supposant des mises d'un montant constant sur chaque pari recommandé
+
+---
+
+## Historique des Prédictions
+
+La commande `/history` vous permet de consulter vos 50 dernières prédictions avec leur résultat détaillé. Cet historique est précieux pour identifier les types de matchs sur lesquels le bot performe le mieux et ajuster votre stratégie en conséquence.
+
+```text
+/history
+```
+
+Exemple de réponse :
+
+```text
+📋 HISTORIQUE — 50 DERNIÈRES PRÉDICTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#1250 | Barcelona vs Arsenal      | ✅ Gagné  | Cote 1.85 | Confiance : ÉLEVÉE
+#1249 | Real Madrid vs Liverpool  | ✅ Gagné  | Cote 2.10 | Confiance : ÉLEVÉE
+#1248 | PSG vs Manchester United  | ❌ Perdu  | Cote 1.75 | Confiance : MOYENNE
+#1247 | Juventus vs Bayern Munich | ✅ Gagné  | Cote 1.90 | Confiance : ÉLEVÉE
+#1246 | Chelsea vs Dortmund       | ✅ Gagné  | Cote 2.05 | Confiance : MOYENNE
+...
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 Taux de réussite sur cette période : 74%
+```
+
+Chaque ligne de l'historique affiche :
+- Le **numéro de prédiction** pour référence
+- Les **équipes en jeu** lors du match virtuel
+- Le **résultat** : ✅ Gagné, ❌ Perdu, ou ⏳ En attente
+- La **cote** associée au pari recommandé
+- Le **niveau de confiance** initial émis par le bot
+
+---
+
+## Analyser vos Performances
+
+Pour tirer le meilleur parti de vos résultats, il est recommandé d'analyser vos performances de manière régulière. Voici les indicateurs clés à surveiller :
+
+<Steps>
+  <Step title="Comparer votre taux de réussite par compétition">
+    Utilisez `/history` et observez sur quelles compétitions (Virtual Liga, Champions League, etc.) votre taux de réussite est le plus élevé. Concentrez vos mises sur les compétitions où le bot performe le mieux pour vous.
+  </Step>
+  <Step title="Suivre l'évolution hebdomadaire">
+    Consultez `/stats` chaque semaine pour noter l'évolution de votre ROI et de votre taux de réussite. Une amélioration constante indique que vous gérez bien vos mises et que vous suivez les bonnes prédictions.
+  </Step>
+  <Step title="Identifier les niveaux de confiance rentables">
+    Dans votre `/history`, filtrez mentalement les prédictions par niveau de confiance. Vous constaterez rapidement que les prédictions à confiance ÉLEVÉE génèrent un meilleur ROI que celles à confiance FAIBLE.
+  </Step>
+  <Step title="Adapter votre bankroll">
+    Sur la base de vos statistiques, affinez le montant de vos mises. Consultez le guide de gestion de bankroll pour des conseils approfondis.
+  </Step>
+</Steps>
+
+<Card title="Gestion de Bankroll" icon="wallet" href="strategy/bankroll">
+  Apprenez à gérer votre capital de manière optimale pour maximiser vos gains sur le long terme grâce à notre guide complet de gestion de bankroll.
+</Card>
+
+---
+
+## Signaler une Prédiction
+
+Si vous constatez qu'un résultat affiché dans votre historique ne correspond pas au résultat réel du match virtuel que vous avez observé sur 1xBet, vous pouvez le signaler pour que notre équipe effectue une vérification.
+
+Pour signaler une prédiction incorrecte :
+
+<Steps>
+  <Step title="Notez le numéro de prédiction">
+    Relevez le numéro de prédiction (par exemple `#1247`) visible dans `/history`.
+  </Step>
+  <Step title="Contactez le support">
+    Envoyez le numéro de prédiction et une description du problème constaté à notre support via Telegram : `@support_1xbet_virtual`.
+  </Step>
+  <Step title="Attendez la vérification">
+    Notre équipe vérifie le résultat dans les 24 heures et corrige votre historique si une erreur est confirmée.
+  </Step>
+</Steps>
+
+<Warning>
+  Les signalements abusifs ou répétés sans fondement peuvent entraîner la suspension temporaire de votre accès au bot. Utilisez cette fonctionnalité uniquement en cas d'erreur avérée.
+</Warning>
+
+<Note>
+  Les résultats des prédictions sont de nature probabiliste. Le bot fournit des recommandations basées sur l'analyse statistique des données disponibles, mais aucun système ne peut garantir un résultat à 100%. Un pari perdu sur une prédiction à confiance ÉLEVÉE ne constitue pas une erreur du bot — cela fait partie de la variance naturelle inhérente aux paris sportifs virtuels. Misez toujours de façon responsable.
+</Note>
+
+---
+
+Pour toute autre question sur l'interprétation de vos résultats, consultez notre [Foire Aux Questions](support/faq) qui répond aux interrogations les plus fréquentes des utilisateurs.

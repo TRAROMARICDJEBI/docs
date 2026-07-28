@@ -1,0 +1,61 @@
+---
+title: "Comment Fonctionne l'Analyse IA des Matchs FIFA Virtuels"
+sidebarTitle: "Comment ça Marche"
+description: "Comprenez la technologie derrière le bot : collecte de données, algorithmes IA et génération des prédictions pour les matchs FIFA virtuels 1xBet."
+---
+
+Le **1xBet FIFA Prediction Bot** repose sur un pipeline d'intelligence artificielle entièrement automatisé, conçu pour transformer des données brutes en prédictions exploitables. Dès qu'un nouveau match FIFA virtuel est détecté sur la plateforme 1xBet, le système se déclenche : il collecte les données pertinentes, les soumet à ses modèles de machine learning, puis vous envoie le résultat de l'analyse directement sur Telegram — tout cela en quelques secondes, avant même que le match ne commence.
+
+## Le Processus en 3 Étapes
+
+<Steps>
+  <Step title="Collecte de données">
+    Le bot commence par agréger un large ensemble de données historiques relatives aux matchs FIFA virtuels : résultats passés des équipes, statistiques de buts marqués et encaissés, fréquence des victoires, des nuls et des défaites, ainsi que les schémas de jeu observés sur des milliers de rencontres. Ces données constituent la base sur laquelle repose toute l'analyse. Plus le volume de données est important, plus les prédictions sont précises et représentatives des tendances réelles.
+  </Step>
+
+  <Step title="Analyse IA">
+    Une fois les données collectées, elles sont transmises aux algorithmes de **machine learning** du bot. Ces modèles calculent les probabilités de victoire pour chaque équipe en tenant compte de l'ensemble des indicateurs disponibles. Le système pondère chaque facteur en fonction de son importance statistique et produit un score de confiance global pour l'issue la plus probable. Les modèles sont régulièrement réentraînés sur les nouvelles données pour s'adapter en permanence aux évolutions des matchs virtuels.
+  </Step>
+
+  <Step title="Envoi de la prédiction">
+    Le résultat de l'analyse est formaté et envoyé automatiquement à tous les abonnés actifs via **Telegram**, avant le début de chaque match. Vous recevez le nom des équipes, l'issue recommandée, le niveau de confiance, le type de pari conseillé et la cote minimale suggérée — toutes les informations dont vous avez besoin pour prendre une décision éclairée en un coup d'œil.
+  </Step>
+</Steps>
+
+## Indicateurs Analysés
+
+Pour chaque match, le bot prend en compte les 6 facteurs clés suivants dans son calcul :
+
+- **Performance historique** : Le bilan global de chaque équipe sur l'ensemble des matchs passés disponibles dans la base de données.
+- **Forme récente** : Les résultats des dernières rencontres de chaque équipe, en accordant un poids plus important aux performances les plus récentes.
+- **Moyenne de buts** : Le nombre moyen de buts marqués et encaissés par match, utilisé pour évaluer le potentiel offensif et défensif de chaque club.
+- **Confrontations directes** : L'historique des face-à-face entre les deux équipes, qui peut révéler des dynamiques spécifiques à cette opposition.
+- **Dynamique de momentum** : La tendance d'une équipe à enchaîner les bonnes ou mauvaises performances sur une séquence de matchs.
+- **Correction de l'aléatoire** : Un ajustement statistique intégré pour neutraliser autant que possible la part d'imprévisibilité inhérente aux matchs FIFA virtuels, afin de produire des probabilités plus robustes.
+
+## Taux de Réussite
+
+La transparence est au cœur du fonctionnement du bot. Le système enregistre automatiquement chaque prédiction envoyée ainsi que le résultat réel du match correspondant. Ces données sont agrégées pour calculer le **taux de réussite global** du bot, mis à jour en continu.
+
+Vous pouvez consulter ces statistiques à tout moment directement depuis Telegram en utilisant la commande suivante :
+
+```text
+/stats
+```
+
+Vous verrez s'afficher le taux de réussite global, le nombre total de prédictions émises, ainsi que la performance détaillée par type de pari.
+
+<Warning>
+  Les matchs FIFA virtuels comportent une part d'aléatoire inhérente à leur conception. Les prédictions fournies par le bot sont des **analyses probabilistes basées sur des données statistiques**, et non des garanties de résultats. Pariez toujours de manière responsable et ne misez jamais plus que ce que vous êtes prêt à perdre.
+</Warning>
+
+## Aller plus loin
+
+<CardGroup cols={2}>
+  <Card title="Voir les Prédictions" icon="chart-line" href="/bot/predictions">
+    Accédez aux dernières prédictions générées par le bot et consultez l'historique des analyses envoyées aux abonnés.
+  </Card>
+  <Card title="Gérer votre Bankroll" icon="wallet" href="/strategy/bankroll">
+    Découvrez les meilleures pratiques pour gérer votre capital de jeu et maximiser vos gains sur le long terme.
+  </Card>
+</CardGroup>

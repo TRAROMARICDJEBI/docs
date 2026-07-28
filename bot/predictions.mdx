@@ -1,0 +1,129 @@
+---
+title: "Recevoir et Interpréter les Prédictions FIFA Virtuel du Bot"
+sidebarTitle: "Prédictions"
+description: "Apprenez à demander, lire et utiliser les prédictions du bot IA pour les matchs FIFA virtuels sur 1xBet afin d'optimiser vos paris."
+---
+
+Le bot de prédiction FIFA Virtuel 1xBet utilise une intelligence artificielle avancée pour analyser chaque match virtuel et vous fournir des recommandations de paris précises et exploitables. Cette page vous explique comment demander une prédiction, comment lire les informations fournies et comment interpréter les niveaux de confiance pour prendre les meilleures décisions.
+
+---
+
+## Demander une Prédiction
+
+Pour obtenir une prédiction, il vous suffit d'envoyer la commande `/predict` dans la conversation Telegram avec le bot. En quelques secondes, le système analyse les données disponibles pour le prochain match virtuel planifié et vous retourne une analyse complète.
+
+<Steps>
+  <Step title="Envoyer la commande">
+    Tapez `/predict` et envoyez le message dans votre conversation avec le bot.
+  </Step>
+  <Step title="Attendre l'analyse IA">
+    Le bot traite les données en temps réel. L'analyse prend généralement entre 2 et 5 secondes.
+  </Step>
+  <Step title="Recevoir la prédiction">
+    Le bot vous envoie une prédiction structurée avec tous les éléments nécessaires pour placer votre pari sur 1xBet.
+  </Step>
+  <Step title="Placer votre pari">
+    Rendez-vous sur 1xBet, retrouvez le match indiqué et placez votre pari selon la recommandation du bot.
+  </Step>
+</Steps>
+
+Si vous êtes abonné, les prédictions vous sont également envoyées **automatiquement** quelques minutes avant le début de chaque match virtuel, sans que vous ayez besoin de le demander manuellement.
+
+---
+
+## Exemple de Prédiction Complète
+
+Voici un exemple représentatif du message de prédiction que vous recevez après avoir utilisé `/predict` :
+
+```text
+🤖 PRÉDICTION FIFA VIRTUEL #1247
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📅 Match : Juventus vs Bayern Munich
+⚽ Compétition : FIFA Virtual League
+
+📊 ANALYSE IA
+├ Victoire Juventus : 45%
+├ Match Nul : 22%
+└ Victoire Bayern : 33%
+
+🎯 RECOMMANDATION
+├ Paris : Victoire Juventus
+├ Type : 1X2
+└ Cote min. : 1.90
+
+⚠️ Confiance : ÉLEVÉE (78%)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💡 Gérez votre bankroll avec soin.
+```
+
+Chaque élément de ce message a une signification précise :
+
+- **#1247** — Numéro unique de la prédiction, utile pour retrouver le résultat dans `/history`
+- **Match** — Les deux équipes s'affrontant lors du prochain match virtuel disponible
+- **Compétition** — La ligue ou le tournoi virtuel concerné
+- **Analyse IA** — La probabilité calculée par l'IA pour chacune des trois issues possibles
+- **Recommandation** — Le pari conseillé par le bot, le type de marché et la cote minimale à rechercher
+- **Confiance** — Le niveau de certitude du bot exprimé en pourcentage et en catégorie
+
+---
+
+## Fréquence des Prédictions
+
+Les matchs FIFA Virtuels sur 1xBet se déroulent en continu, 24h/24 et 7j/7, avec une fréquence variant selon la compétition (toutes les 3 à 10 minutes selon la ligue). Le bot est synchronisé en permanence avec le calendrier des matchs virtuels.
+
+- **Abonnés actifs** : les prédictions sont envoyées **automatiquement** avant chaque match, sans aucune action de votre part.
+- **Utilisateurs sans abonnement** : vous pouvez demander une prédiction manuellement via `/predict`, mais le nombre de prédictions gratuites est limité.
+- **Alertes haute confiance** : les abonnés Premium et VIP reçoivent en priorité une notification spéciale lorsque le bot détecte un signal de confiance élevée (>75%).
+
+<Tip>
+  Pour ne manquer aucune prédiction, activez les notifications Telegram pour le bot et souscrivez à un abonnement. Rendez-vous dans `/settings` pour configurer vos alertes.
+</Tip>
+
+---
+
+## Niveaux de Confiance
+
+Le niveau de confiance est l'indicateur clé à surveiller dans chaque prédiction. Il reflète la certitude du modèle IA quant à l'issue recommandée, calculée sur la base des données statistiques disponibles.
+
+### 🟢 ÉLEVÉE (>70%) — Signal fort
+
+Le bot a identifié une tendance claire et des données convergentes. C'est le signal le plus fiable, adapté à une mise standard selon votre bankroll.
+
+```text
+⚠️ Confiance : ÉLEVÉE (78%)
+```
+
+### 🟡 MOYENNE (50–70%) — Signal modéré
+
+Le bot détecte une légère tendance, mais les données présentent davantage d'incertitude. Misez prudemment et réduisez votre mise par rapport à votre montant habituel.
+
+```text
+⚠️ Confiance : MOYENNE (63%)
+```
+
+### 🔴 FAIBLE (\<50%) — Prudence recommandée
+
+Les données sont insuffisantes ou contradictoires pour établir une prédiction fiable. Le bot vous informe par transparence, mais il est fortement déconseillé de miser sur ce type de signal.
+
+```text
+⚠️ Confiance : FAIBLE (41%)
+```
+
+<Note>
+  Il est fortement déconseillé de placer un pari sur des prédictions à confiance FAIBLE. Ces prédictions sont partagées à titre informatif uniquement. Misez uniquement lorsque le niveau de confiance est MOYEN ou ÉLEVÉ, et adaptez toujours le montant de votre mise à votre stratégie de gestion de bankroll.
+</Note>
+
+---
+
+## Prédictions Automatiques
+
+Les abonnés actifs bénéficient de la fonctionnalité d'envoi automatique des prédictions. Dès qu'un nouveau match virtuel est sur le point de commencer, le bot vous envoie la prédiction correspondante directement dans Telegram, sans que vous ayez à effectuer la moindre action.
+
+Cette fonctionnalité vous permet de :
+
+- **Ne jamais manquer un match** à fort potentiel
+- **Recevoir les alertes en temps réel**, y compris la nuit si les notifications sont activées
+- **Filtrer les prédictions** selon votre niveau de confiance minimum dans `/settings`
+- **Accéder aux analyses avant tout le monde** grâce à la livraison prioritaire pour les abonnés VIP
+
+Pour activer ou désactiver les prédictions automatiques, utilisez la commande `/settings` et modifiez l'option **Notifications automatiques**.
